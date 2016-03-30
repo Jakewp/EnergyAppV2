@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:id="@+id/LayoutHolder"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TopSection"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="20dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Whatt&apos;Up?"
+            android:id="@+id/HeadLine"
+            android:typeface="serif"
+            android:textSize="40dp"
+            android:textIsSelectable="false"
+            android:textColor="#193A7C"
+            android:layout_gravity="top"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:layout_weight="0" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="64dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/lightbulb"
+            android:cropToPadding="false"
+            android:paddingRight="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TopMiddleSection"
+        android:paddingLeft="20dp"
+        android:paddingRight="15dp"
+        android:paddingTop="35dp"
+        android:paddingBottom="35dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextApplianceName"
+            android:textColor="#193A7C"
+            android:textSize="15sp"
+            android:selectAllOnFocus="false"
+            android:textStyle="italic"
+            android:hint="Appliance Name"
+            android:textColorHint="#193A7C" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextWatt"
+            android:textColor="#193A7C"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:textColorHint="#193A7C"
+            android:hint="Usage in watt" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextTimeUsed"
+            android:textColor="#193A7C"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:textColorHint="#193A7C"
+            android:hint="Hours used per day" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextRatePrice"
+            android:textColor="#193A7C"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:textColorHint="#193A7C"
+            android:hint="How many øre do you pay per kWh?" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MiddleSection"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:paddingTop="20dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/button"
+            android:textColor="#ffffff"
+            android:background="#193A7C"
+            android:onClick="onButtonClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BottomSection"
+        android:gravity="bottom"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" © EnergyAppProject"
+            android:id="@+id/CopyRight"
+            android:textColor="#193A7C"
+            android:layout_gravity="right"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp" />
+
+    </LinearLayout>
+</LinearLayout>

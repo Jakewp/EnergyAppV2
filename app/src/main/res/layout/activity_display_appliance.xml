@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/LayoutHolder"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TopSection"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="20dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Whatt&apos;Up?"
+            android:id="@+id/HeadLine"
+            android:typeface="serif"
+            android:textSize="40dp"
+            android:textIsSelectable="false"
+            android:textColor="#193A7C"
+            android:layout_gravity="top"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:layout_weight="0" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="64dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/lightbulb"
+            android:paddingRight="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AppNameSection"
+        android:paddingLeft="20dp"
+        android:paddingTop="35dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/ApplianceNameHeader"
+            android:typeface="serif"
+            android:text="Fridge"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:textColor="#193A7C"
+            android:layout_weight="0"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:paddingBottom="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MiddleSection"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="35dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/watt"
+            android:textColor="#193A7C"
+            android:paddingBottom="10dp"
+            android:textSize="10dp"
+            android:padding="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/timeUsed"
+            android:textColor="#193A7C"
+            android:paddingBottom="10dp"
+            android:textSize="10dp"
+            android:padding="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/ratePrice"
+            android:textColor="#193A7C"
+            android:paddingBottom="10dp"
+            android:textSize="10dp"
+            android:padding="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/totalPrice"
+            android:textColor="#193A7C"
+            android:textSize="10dp"
+            android:padding="10dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/bottomLine"
+            android:typeface="serif"
+            android:textSize="10dp"
+            android:textIsSelectable="false"
+            android:textColor="#193A7C"
+            android:layout_gravity="top"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:layout_weight="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" © EnergyAppProject"
+            android:id="@+id/CopyRight"
+            android:textColor="#193A7C"
+            android:layout_gravity="right"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
