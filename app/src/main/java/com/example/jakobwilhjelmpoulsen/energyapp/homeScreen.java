@@ -11,6 +11,7 @@ import android.widget.TextView;
 /**
  * Created by jakobwilhjelmpoulsen on 23/03/2016.
  */
+
 public class homeScreen extends AppCompatActivity {
     String applName;
     double wattCalc;

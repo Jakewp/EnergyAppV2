@@ -16,6 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".displayAppliance"></activity>
+
+        <activity android:name=".menuScreen"></activity>
     </application>
 
 </manifest>

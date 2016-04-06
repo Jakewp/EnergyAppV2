@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EnergyApp</string>
+    <string-array name="menuOptions">
+        <item>New Appliance</item>
+        <item>Show Appliance</item>
+    </string-array>
 </resources>

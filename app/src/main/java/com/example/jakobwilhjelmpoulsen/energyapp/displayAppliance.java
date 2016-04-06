@@ -5,11 +5,10 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 /**
  * Created by jakobwilhjelmpoulsen on 23/03/2016.
  */
+
 public class displayAppliance extends homeScreen {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
